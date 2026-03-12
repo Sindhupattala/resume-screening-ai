@@ -1,0 +1,97 @@
+-- Creating table for users to store user information
+CREATE TABLE users (
+    user_id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    username NVARCHAR(50) UNIQUE NOT NULL,
+    email NVARCHAR(255) UNIQUE NOT NULL,
+    password_hash NVARCHAR(255) NOT NULL,
+    first_name NVARCHAR(50),
+    last_name NVARCHAR(50),
+    created_at DATETIMEOFFSET DEFAULT SYSDATETIMEOFFSET(),
+    updated_at DATETIMEOFFSET DEFAULT SYSDATETIMEOFFSET(),
+    is_active BIT DEFAULT 1,
+    last_login DATETIMEOFFSET
+);
+
+-- Creating table for roles to manage user roles
+CREATE TABLE roles (
+    role_id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    role_name NVARCHAR(50) UNIQUE NOT NULL,
+    description NVARCHAR(MAX),
+    created_at DATETIMEOFFSET DEFAULT SYSDATETIMEOFFSET()
+);
+
+-- Creating table for permissions
+CREATE TABLE permissions (
+    permission_id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    permission_name NVARCHAR(50) UNIQUE NOT NULL,
+    description NVARCHAR(MAX),
+    created_at DATETIMEOFFSET DEFAULT SYSDATETIMEOFFSET()
+);
+
+-- Creating table for user-role relationships (many-to-many)
+CREATE TABLE user_roles (
+    user_id BIGINT,
+    role_id BIGINT,
+    assigned_at DATETIMEOFFSET DEFAULT SYSDATETIMEOFFSET(),
+    PRIMARY KEY (user_id, role_id),
+    FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
+    FOREIGN KEY (role_id) REFERENCES roles(role_id) ON DELETE CASCADE
+);
+
+-- Creating table for role-permission relationships (many-to-many)
+CREATE TABLE role_permissions (
+    role_id BIGINT,
+    permission_id BIGINT,
+    assigned_at DATETIMEOFFSET DEFAULT SYSDATETIMEOFFSET(),
+    PRIMARY KEY (role_id, permission_id),
+    FOREIGN KEY (role_id) REFERENCES roles(role_id) ON DELETE CASCADE,
+    FOREIGN KEY (permission_id) REFERENCES permissions(permission_id) ON DELETE CASCADE
+);
+
+-- Creating table for authentication tokens
+CREATE TABLE auth_tokens (
+    token_id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    token NVARCHAR(255) UNIQUE NOT NULL,
+    token_type NVARCHAR(20) CHECK (token_type IN ('ACCESS', 'REFRESH')) NOT NULL,
+    issued_at DATETIMEOFFSET DEFAULT SYSDATETIMEOFFSET(),
+    expires_at DATETIMEOFFSET NOT NULL,
+    revoked BIT DEFAULT 0,
+    created_at DATETIMEOFFSET DEFAULT SYSDATETIMEOFFSET(),
+    FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
+);
+
+-- Creating table for password reset tokens
+CREATE TABLE password_reset_tokens (
+    reset_token_id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    token NVARCHAR(255) UNIQUE NOT NULL,
+    created_at DATETIMEOFFSET DEFAULT SYSDATETIMEOFFSET(),
+    expires_at DATETIMEOFFSET NOT NULL,
+    used BIT DEFAULT 0,
+    FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
+);
+
+-- Creating table for user sessions
+CREATE TABLE sessions (
+    session_id BIGINT IDENTITY(1,1) PRIMARY KEY,
+    user_id BIGINT NOT NULL,
+    token_id BIGINT NOT NULL,
+    ip_address NVARCHAR(45),
+    user_agent NVARCHAR(MAX),
+    created_at DATETIMEOFFSET DEFAULT SYSDATETIMEOFFSET(),
+    last_accessed DATETIMEOFFSET DEFAULT SYSDATETIMEOFFSET(),
+    expires_at DATETIMEOFFSET NOT NULL,
+    revoked_at DATETIMEOFFSET  NULL,
+    ended_at DATETIMEOFFSET NULL,
+    is_active BIT DEFAULT 1,
+    FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE,
+    FOREIGN KEY (token_id) REFERENCES auth_tokens(token_id) ON DELETE NO ACTION
+);
+
+
+-- Creating indexes for better query performance
+CREATE INDEX idx_users_email ON users(email);
+CREATE INDEX idx_auth_tokens_token ON auth_tokens(token);
+CREATE INDEX idx_password_reset_tokens_token ON password_reset_tokens(token);
+CREATE INDEX idx_sessions_token_id ON sessions(token_id);

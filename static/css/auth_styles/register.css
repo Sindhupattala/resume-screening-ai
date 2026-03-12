@@ -1,0 +1,44 @@
+.floating-input:focus ~ label,
+.floating-input:not(:placeholder-shown) ~ label {
+  transform: scale(0.75) translateY(-1.25rem);
+  color: #0ea5e9;
+}
+
+.btn-ripple {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.btn-ripple:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-ripple:active {
+  transform: translateY(0);
+}
+
+.btn-ripple:focus:not(:active)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  border-radius: 100%;
+  transform: scale(1, 1) translate(-50%, -50%);
+  transform-origin: 50% 50%;
+  animation: ripple 0.6s ease-out;
+}
+
+.input-focus:focus {
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.2);
+}
+
+.card {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}

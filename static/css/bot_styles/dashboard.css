@@ -1,0 +1,17 @@
+/* You can add custom CSS here if needed */
+/* Tailwind CSS is already included via CDN, so most styles are utility-based in HTML */
+
+/* Optional: Add custom styles for dropdown or transitions */
+.hidden {
+  display: none;
+}
+
+/* Smooth transitions for dropdowns */
+.transition-colors {
+  transition: color 0.2s ease;
+}
+
+/* Optional: Custom focus outline */
+.focus\:outline-none:focus {
+  outline: none;
+}

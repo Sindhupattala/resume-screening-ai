@@ -1,0 +1,211 @@
+{
+    "e0f4c63d620966b0d4846b23c906873a": {
+        "rating": 80.0,
+        "reason": "Candidate has 11 years of total experience with 11 years of relevant experience in SAP FICO and S4 HANA. Strong background in SAP Financials, FICO Controlling, Cost Center Accounting, and Treasury Management with hands-on experience in multiple implementations. Successfully delivered a material ledger implementation project. However, lacks experience in SAP Public Cloud and Cloud Transport Management which are critical for this role. Overall, a highly experienced candidate with a solid technical foundation and extensive relevant experience.",
+        "individual_scores": {
+            "Mandatory Skills": "30.0/50. JD Skills: [SAP Public Cloud, Cloud Transport Management, Business Process Tiles, Data Migration Cockpit, Banking, Bank Master Data, House Banks, EBS, DME, SAP Financials, FICO Controlling, Cost Center Accounting, Profit Center Accounting, Product Costing, Month End process, Treasury, FI-New GL, FI-AP, FI-AR, Asset Accounting]. Matched: [SAP Financials, FICO Controlling, Cost Center Accounting, Profit Center Accounting, Product Costing, Month End process, Treasury, FI-AP, FI-AR, Asset Accounting]. Missing: [SAP Public Cloud, Cloud Transport Management, Business Process Tiles, Data Migration Cockpit, Banking, Bank Master Data, House Banks, EBS, DME, FI-New GL]. ",
+            "Total Experience": "10/10. Employment periods: [Aug 2014 - Current (July 2025) = 132 months]. Total months after overlap removal: 132 months = 11.00 years. JD requirement: 6 years.",
+            "Relevant Experience": "20/20. Relevant periods: [Aug 2014 - Current (July 2025) = 132 months]. Relevant months after overlap removal: 132 months = 11.00 years. JD requirement: 6 years. Threshold: 4 years.",
+            "Project Exposure": "20/20. E2E projects: [Material Ledger implementation in S4 Hana 1709 Project]. Support projects: [Configured End to End EBS for MT940 & BAI2, Supported for three clients simultaneously on Day to Day support]. Academic/Unrelated: []. Scoring logic: Candidate has 1 relevant E2E project that aligns with JD requirements."
+        },
+        "shortlisted": true
+    },
+    "ecba79ba8202bf475b47bec9e74aca39": {
+        "rating": 80.0,
+        "reason": "Candidate has 6 years 3 months of total experience with 0 years 7 months of relevant experience in SAP FICO and S/4HANA Public Cloud. Strong proficiency in configuring FICO modules such as General Ledger, Accounts Receivable, Accounts Payable, and Asset Accounting. Successfully completed one end-to-end implementation project in SAP S/4HANA Public Cloud. However, lacks experience in several critical areas such as Banking, EBS, and Treasury which are essential for this role. Overall, a solid candidate with good technical foundation but significant gaps in relevant experience and skills.",
+        "individual_scores": {
+            "Mandatory Skills": "30.0/50. JD Skills: [SAP Public Cloud, Cloud Transport Management, Business Process Tiles, Data Migration Cockpit, Banking, Bank Master Data, House Banks, EBS, DME, SAP Financials, FICO Controlling, Cost Center Accounting, Profit Center Accounting, Product Costing, Month End process, Treasury, FI-New GL, FI-AP, FI-AR, Asset Accounting]. Matched: [SAP S/4HANA Public Cloud, General Ledger (FI-GL), Accounts Receivable (FI-AR), Accounts Payable (FI-AP), Asset Accounting (FI-AA), Cost Center Accounting (CCA), Cost Element Accounting (CEA), Cloud Transport Management, Data Migration Cockpit]. Missing: [Business Process Tiles, Banking, Bank Master Data, House Banks, EBS, DME, FICO Controlling, Profit Center Accounting, Product Costing, Month End process, Treasury, FI-New GL]. ",
+            "Total Experience": "10/10. Employment periods: [May 2018 - Dec 2022 (56 months), Jan 2023 - Dec 2023 (12 months), Jan 2024 - Present (7 months)]. Total months after overlap removal: 75 months = 6.25 years. JD requirement: 6 years.",
+            "Relevant Experience": "20/20. Relevant periods: [Jan 2024 - Present (7 months)]. Relevant months after overlap removal: 7 months = 0.58 years. JD requirement: 6 years. Threshold: 4 years.",
+            "Project Exposure": "20/20. E2E projects: [One full life cycle implementation project in SAP S/4HANA Public Cloud]. Support projects: [Ongoing implementation projects]. Academic/Unrelated: []. Scoring logic: Candidate has completed one end-to-end project relevant to the JD requirements, demonstrating the full development lifecycle."
+        },
+        "shortlisted": true
+    },
+    "feb483b70b7e1e73ee71407cd1ccd568": {
+        "rating": 0.0,
+        "reason": "Candidate has 0 years 0 months of total experience with 0 years 0 months of relevant experience. No experience in SAP Public Cloud or FICO-related technologies. Lacks any relevant projects or skills that align with the job description. Overall, the candidate does not meet the requirements for this position.",
+        "individual_scores": {
+            "Mandatory Skills": "0/50. JD Skills: [SAP Public Cloud, Cloud Transport Management, Business Process Tiles, Data Migration Cockpit, Banking, Bank Master Data, House Banks, Account Id\u2019s, EBS, DME, SAP Financials, FICO Controlling, Cost Center Accounting, Profit Center Accounting, Product Costing, Month End process, Treasury, FI-New GL, FI-AP, FI-AR, Asset Accounting]. Matched: []. Missing: [SAP Public Cloud, Cloud Transport Management, Business Process Tiles, Data Migration Cockpit, Banking, Bank Master Data, House Banks, Account Id\u2019s, EBS, DME, SAP Financials, FICO Controlling, Cost Center Accounting, Profit Center Accounting, Product Costing, Month End process, Treasury, FI-New GL, FI-AP, FI-AR, Asset Accounting]. ",
+            "Total Experience": "0/10. Employment periods: []. Total months after overlap removal: 0 months = 0.00 years. JD requirement: 6 years.",
+            "Relevant Experience": "0/20. Relevant periods: []. Relevant months after overlap removal: 0 months = 0.00 years. JD requirement: 6 years. Threshold: 4 years.",
+            "Project Exposure": "0/20. E2E projects: []. Support projects: []. Academic/Unrelated: []. Scoring logic: No relevant projects mentioned in the resume."
+        },
+        "shortlisted": false
+    },
+    "fb5e63f787982e5dc5ec79507a4f48b9": {
+        "rating": 80.0,
+        "reason": "Candidate has 10 years 1 month of total experience with 6 years 3 months of relevant experience in SAP FICO and S4 HANA implementations. Strong proficiency in SAP Public Cloud, Data Migration Cockpit, and FICO Controlling with hands-on experience in end-to-end project implementations. Successfully delivered multiple projects involving configuration and support of SAP FICO modules. However, missing critical skills in Cloud Transport Management and Business Process Tiles which are essential for this role. Overall, an experienced candidate with a solid technical foundation and relevant project experience, making them a strong fit for the position.",
+        "individual_scores": {
+            "Mandatory Skills": "30.0/50. JD Skills: [SAP Public Cloud, Cloud Transport Management, Business Process Tiles, Data Migration Cockpit, Banking, Bank Master Data, House Banks, Account Id\u2019s, EBS, DME, FICO Controlling, Cost Center Accounting, Profit Center Accounting, Product Costing, Month End process, Treasury, FI-New GL, FI-AP, FI-AR, Asset Accounting]. Matched: [SAP Public Cloud, Data Migration Cockpit, Bank Master Data, House Banks, FICO Controlling, Cost Center Accounting, Profit Center Accounting, Product Costing, Month End process, Treasury, FI-New GL, FI-AP, FI-AR, Asset Accounting]. Missing: [Cloud Transport Management, Business Process Tiles, EBS, DME]. ",
+            "Total Experience": "10/10. Employment periods: [Dec 2023 - Jan 2025 (14 months), Jul 2023 - Dec 2023 (6 months), Aug 2019 - Jun 2023 (48 months), Aug 2018 - Aug 2019 (12 months), Aug 2017 - Aug 2018 (12 months), Mar 2015 - Aug 2017 (29 months)]. Total months after overlap removal: 14 + 6 + 48 + 12 + 12 + 29 = 121 months = 10.08 years. JD requirement: 6-8 years.",
+            "Relevant Experience": "20/20. Relevant periods: [Feb 2025 - Present (7 months), Dec 2023 - Jan 2025 (14 months), Jul 2023 - Dec 2023 (6 months), Aug 2019 - Jun 2023 (48 months)]. Relevant months after overlap removal: 7 + 14 + 6 + 48 = 75 months = 6.25 years. JD requirement: 6 years. Threshold: 4 years.",
+            "Project Exposure": "20/20. E2E projects: [S4 HANA Public Cloud-Grow -Implementation Project, PRAGATI -S4 HANA Public Cloud-Rise-Implementation Project, ERP SAP (Advaita-the one for all) -Implementation Project]. Support projects: [AAROHAN -Support Project]. Academic/Unrelated: []. Scoring logic: Candidate has multiple end-to-end projects relevant to the JD requirements, demonstrating hands-on experience in SAP FICO and S4 HANA implementations."
+        },
+        "shortlisted": true
+    },
+    "aa22356cced38ea402c099dada4071b2": {
+        "rating": 70.0,
+        "reason": "Candidate has 9 years 2 months of total experience with 6 years 2 months of relevant experience in SAP FICO and S/4 HANA. Strong background in FICO modules with hands-on experience in data migration and end-user support. Successfully delivered 1 end-to-end project involving S/4 HANA Public Cloud implementation. However, lacks several critical skills such as Cloud Transport Management and comprehensive banking knowledge which are essential for this role. Overall, a well-experienced candidate with a solid technical foundation but some key skill gaps that may require additional training.",
+        "individual_scores": {
+            "Mandatory Skills": "20.0/50. JD Skills: [Cloud Transport Management, Data Migration Cockpit, Banking, Bank Master Data, House Banks, EBS, DME, FICO Controlling, Cost Center Accounting, Profit Center Accounting, Product Costing, Month End process, Treasury, FI-New GL, FI-AP, FI-AR, Asset Accounting]. Matched: [Data Migration Cockpit, EBS, FI-AP, FI-AR, Asset Accounting]. Missing: [Cloud Transport Management, Banking, Bank Master Data, House Banks, DME, FICO Controlling, Cost Center Accounting, Profit Center Accounting, Product Costing, Month End process, Treasury, FI-New GL]. ",
+            "Total Experience": "10/10. Employment periods: [Mar 2023 - Present (July 2025) = 28 months, Mar 2019 - Jan 2023 = 46 months, May 2018 - Oct 2018 = 6 months, Apr 2014 - Sep 2016 = 30 months]. Total months after overlap removal: 28 + 46 + 6 + 30 = 110 months = 9.17 years. JD requirement: 6-8 years.",
+            "Relevant Experience": "20/20. Relevant periods: [Mar 2023 - Present (July 2025) = 28 months, Mar 2019 - Jan 2023 = 46 months]. Relevant months after overlap removal: 28 + 46 = 74 months = 6.17 years. JD requirement: 6 years. Threshold: 4 years.",
+            "Project Exposure": "20/20. E2E projects: [S/4 Hana Public cloud consultant at Specialty Granules (Green field implementation)]. Support projects: [Novo Nordisk (Support and Development), Infosys (Support projects)]. Academic/Unrelated: []. Scoring logic: Candidate has 1 relevant E2E project that aligns with JD requirements."
+        },
+        "shortlisted": false
+    },
+    "b30a44eedacd8f0bb4dc8fd14c0bb16a": {
+        "rating": 50.0,
+        "reason": "Candidate has 5 years 2 months of total experience with 0 years 0 months of relevant experience in ABAP development. Strong proficiency in ABAP, with hands-on experience in developing ALV Reports and Conversion Programs. Successfully delivered multiple end-to-end projects involving SAP solutions. However, the candidate lacks the required experience in OO-ABAP, OData, and other critical skills mentioned in the job description. Overall, a solid candidate with good technical foundation but falls short on the experience required for this role.",
+        "individual_scores": {
+            "Mandatory Skills": "20.0/50. JD Skills: [ABAP, WRICEF Objects, Reports, Interfaces, Conversions, Enhancements, Adobe Forms, OO-ABAP, OData, CDS Views, Custom applications, Webdynpro ABAP, FIORI, UI5 Application development, ABAP on HANA, ABAP Debugging, Performance Tools, Runtime Analysis, SAP Job Scheduling, SQL Trace, Performance Tuning, S4HANA Implementations, Web Services, Proxies, Restful programming, IDOCs, Business Workflows, EDI]. Matched: [ABAP, WRICEF Objects, Reports, Interfaces, Conversions, Enhancements, Adobe Forms, CDS Views, ABAP Debugging, Performance Tools, IDOCs]. Missing: [OO-ABAP, OData, Custom applications, Webdynpro ABAP, FIORI, UI5 Application development, ABAP on HANA, Runtime Analysis, SAP Job Scheduling, SQL Trace, Performance Tuning, S4HANA Implementations, Web Services, Proxies, Restful programming, Business Workflows, EDI]. ",
+            "Total Experience": "10/10. Employment periods: [Jan 2020 - Feb 2025 (62 months)]. Total months after overlap removal: 62 months = 5.17 years. JD requirement: 6-8 years.",
+            "Relevant Experience": "0/20. Relevant periods: [Jan 2020 - Feb 2025 (62 months)]. Relevant months after overlap removal: 62 months = 5.17 years. JD requirement: 6 years. Threshold: 4 years.",
+            "Project Exposure": "20/20. E2E projects: [Project#1: Developed various ALV Reports and Conversion Programs for Mohawk Industries, Project#2: Developed ALV Reports and Conversion Programs for Technokart India Pvt. Ltd.]. Support projects: []. Academic/Unrelated: []. Scoring logic: Candidate has multiple end-to-end projects relevant to the JD requirements, demonstrating hands-on experience in ABAP development."
+        },
+        "shortlisted": false
+    },
+    "20b91db4289785a562defcdedc5597b8": {
+        "rating": 50.0,
+        "reason": "Candidate has 4 years 1 month of total experience with 0 years 0 months of relevant experience in SAP ABAP. Strong background in ABAP development with hands-on experience in RICEFW objects and CDS Views. Successfully delivered multiple end-to-end projects involving S4 HANA. However, lacks the required experience in critical skills such as Adobe Forms, OO-ABAP, and Web Services which are essential for this role. Overall, a capable candidate with solid technical foundation but significant skill gaps that may hinder immediate fit for the position.",
+        "individual_scores": {
+            "Mandatory Skills": "20.0/50. JD Skills: [ABAP, WRICEF Objects, Reports, Interfaces, Conversions, Enhancements, Adobe Forms, OO-ABAP, OData, CDS Views, Custom applications, Webdynpro ABAP, FIORI, UI5, ABAP on HANA, ABAP Debugging, Performance Tools, Runtime Analysis, SAP Job Scheduling, SQL Trace, Performance Tuning, S4HANA Implementations, Web Services, Proxies, Restful programming, IDOCs, Business Workflows, EDI]. Matched: [ABAP, WRICEF Objects, Reports, Interfaces, Enhancements, CDS Views, ABAP on HANA]. Missing: [Adobe Forms, OO-ABAP, OData, Custom applications, Webdynpro ABAP, FIORI, UI5, ABAP Debugging, Performance Tools, Runtime Analysis, SAP Job Scheduling, SQL Trace, Performance Tuning, S4HANA Implementations, Web Services, Proxies, Restful programming, IDOCs, Business Workflows, EDI]. ",
+            "Total Experience": "10/10. Employment periods: [05/2021 - Present (07/2025)]. Total months after overlap removal: 49 months = 4.08 years. JD requirement: 6 years.",
+            "Relevant Experience": "0/20. Relevant periods: [05/2021 - Present (07/2025)]. Relevant months after overlap removal: 49 months = 4.08 years. JD requirement: 6 years. Threshold: 4 years.",
+            "Project Exposure": "20/20. E2E projects: [P&G - Procter and Gamble (S4 HANA): Developed ALV report program and CDS Views; TCI (Team Center Integration): Developed RFC and report program; HERS Development (S4 HANA): Developed Implementation for standard BADI]. Support projects: []. Academic/Unrelated: []. Scoring logic: Candidate has multiple end-to-end projects relevant to the JD requirements, demonstrating hands-on experience with SAP ABAP and S4 HANA."
+        },
+        "shortlisted": false
+    },
+    "8665a02f459df0519a104df995ddd497": {
+        "rating": 30.0,
+        "reason": "Candidate has 2 years 4 months of total experience with 2 years 4 months of relevant experience in SAP ABAP development. Strong proficiency in ABAP, WRICEF Objects, and OO-ABAP with hands-on experience in project management and enhancements. Successfully delivered one end-to-end project involving SAP functionalities. However, the candidate lacks the required experience of 6 years and many critical skills such as OData, FIORI, and ABAP on HANA which are essential for this role. Overall, a junior candidate with a solid foundation in ABAP but significant experience gaps.",
+        "individual_scores": {
+            "Mandatory Skills": "10.0/50. JD Skills: [ABAP, WRICEF Objects, Reports, Interfaces, Conversions, Enhancements, Adobe Forms, OO-ABAP, OData, CDS Views, Custom applications, Webdynpro ABAP, FIORI, UI5, ABAP on HANA, ABAP Debugging, Performance Tools, Runtime Analysis, SAP Job Scheduling, SQL Trace, Performance Tuning, S4HANA Implementations, Web Services, Proxies, Restful programming, IDOCs, Business Workflows, EDI]. Matched: [ABAP, WRICEF Objects, Reports, Enhancements, OO-ABAP, IDOCs, CDS Views]. Missing: [Interfaces, Conversions, Adobe Forms, OData, Custom applications, Webdynpro ABAP, FIORI, UI5, ABAP on HANA, ABAP Debugging, Performance Tools, Runtime Analysis, SAP Job Scheduling, SQL Trace, Performance Tuning, S4HANA Implementations, Web Services, Proxies, Restful programming, Business Workflows, EDI]. ",
+            "Total Experience": "10/10. Employment periods: [December 2022 - March 2025 (28 months)]. Total months after overlap removal: 28 months = 2.33 years. JD requirement: 6 years.",
+            "Relevant Experience": "0/20. Relevant periods: [December 2022 - March 2025 (28 months)]. Relevant months after overlap removal: 28 months = 2.33 years. JD requirement: 6 years. Threshold: 4 years.",
+            "Project Exposure": "10/20. E2E projects: [Olympus and DFS]. Support projects: []. Academic/Unrelated: []. Scoring logic: Candidate has led an end-to-end project (Olympus and DFS) relevant to the JD requirements, but lacks sufficient relevant experience overall."
+        },
+        "shortlisted": false
+    },
+    "d35877fba9e8fd43a9630e374c8dd43e": {
+        "rating": 70.0,
+        "reason": "Candidate has 6 years 7 months of total experience with 6 years 7 months of relevant experience in SAP ABAP development. Strong proficiency in ABAP, OO-ABAP, and experience with Reports and IDOCs. Successfully delivered multiple end-to-end projects involving ABAP development and automation tools. However, lacks experience in several critical skills such as OData, CDS Views, and FIORI which are essential for this role. Overall, a solid candidate with a strong technical foundation but some key skill gaps that may require additional training.",
+        "individual_scores": {
+            "Mandatory Skills": "20.0/50. JD Skills: [ABAP, OO-ABAP, OData, CDS Views, Reports, Interfaces, Conversions, Enhancements, Adobe Forms, Custom applications, Webdynpro ABAP, FIORI, UI5, ABAP Debugging, Performance Tools, Runtime Analysis, SQL Trace, Performance Tuning, S4HANA Implementations, Web Services, Proxies, Restful programming, IDOCs, Business Workflows, EDI]. Matched: [ABAP, OO-ABAP, Reports, IDOC, Performance Tuning]. Missing: [OData, CDS Views, Interfaces, Conversions, Enhancements, Adobe Forms, Custom applications, Webdynpro ABAP, FIORI, UI5, ABAP Debugging, Performance Tools, Runtime Analysis, SQL Trace, S4HANA Implementations, Web Services, Proxies, Restful programming, Business Workflows, EDI]. ",
+            "Total Experience": "10/10. Employment periods: [21/01/2019 - 25/07/2022 (43 months), 29/07/2022 - 07/2025 (36 months)]. Total months after overlap removal: 79 months = 6.58 years. JD requirement: 6 years.",
+            "Relevant Experience": "20/20. Relevant periods: [21/01/2019 - 25/07/2022 (43 months), 29/07/2022 - 07/2025 (36 months)]. Relevant months after overlap removal: 79 months = 6.58 years. JD requirement: 6 years. Threshold: 4 years.",
+            "Project Exposure": "20/20. E2E projects: [GEPDB Data Automation, YPACKDAT Report Generation]. Support projects: [AMS_Implementation]. Academic/Unrelated: []. Scoring logic: Candidate has multiple end-to-end projects relevant to the JD, demonstrating hands-on experience in ABAP development and implementation."
+        },
+        "shortlisted": false
+    },
+    "900d22c39664cffafddc80e2f565d148": {
+        "rating": 20.0,
+        "reason": "Candidate has 0 years 0 months of total experience with 0 years 0 months of relevant experience in SAP ABAP development. The candidate has some knowledge in ABAP and related technologies but lacks the required experience and skills for the role. No relevant projects were presented that align with the job description. Overall, the candidate does not meet the experience or skill requirements for this position.",
+        "individual_scores": {
+            "Mandatory Skills": "20/50. JD Skills: [ABAP, OO-ABAP, OData, CDS Views, Adobe Forms, Webdynpro ABAP, FIORI, UI5, SAP Job Scheduling, SQL Trace, Performance Tuning, IDOCs, Business Workflows, EDI]. Matched: [ABAP, SAP ABAP on HANA, SAP Ui5 & Fiori, OData]. Missing: [OO-ABAP, CDS Views, Adobe Forms, Webdynpro ABAP, FIORI, UI5, SAP Job Scheduling, SQL Trace, Performance Tuning, IDOCs, Business Workflows, EDI]. ",
+            "Total Experience": "0/10. Employment periods: []. Total months after overlap removal: 0 months = 0.00 years. JD requirement: 6 years.",
+            "Relevant Experience": "0/20. Relevant periods: []. Relevant months after overlap removal: 0 months = 0.00 years. JD requirement: 6 years. Threshold: 4 years.",
+            "Project Exposure": "0/20. E2E projects: []. Support projects: []. Academic/Unrelated: [Block hunter federated learning for cyber threat hunting in blockchain-based IIot networks, CURRENCY MASTER (Your All-In-One Currency Converter)]. Scoring logic: No relevant end-to-end projects related to SAP ABAP development were found. All projects are academic and do not align with the job requirements."
+        },
+        "shortlisted": false
+    },
+    "1ea90e27ebd6c3d02fc3d085893a7874": {
+        "rating": 0.0,
+        "reason": "Candidate has 1 year 3 months of total experience with 0 years 0 months of relevant experience in SAP ABAP or related technologies. The resume does not demonstrate any experience with ABAP, which is a critical requirement for the role. Additionally, there are no relevant projects that align with the job description's focus on SAP solutions. Overall, the candidate lacks the necessary technical skills and experience for this position.",
+        "individual_scores": {
+            "Mandatory Skills": "0/50. JD Skills: [ABAP, WRICEF Objects, Reports, Interfaces, Conversions, Enhancements, Adobe Forms, OO-ABAP, OData, CDS Views, Custom applications, Webdynpro ABAP, FIORI, UI5, ABAP on HANA, ABAP Debugging, Performance Tools, Runtime Analysis, SAP Job Scheduling, SQL Trace, Performance Tuning, S4HANA Implementations, Web Services, Proxies, Restful programming, IDOCs, Business Workflows, EDI]. Matched: []. Missing: [ABAP, WRICEF Objects, Reports, Interfaces, Conversions, Enhancements, Adobe Forms, OO-ABAP, OData, CDS Views, Custom applications, Webdynpro ABAP, FIORI, UI5, ABAP on HANA, ABAP Debugging, Performance Tools, Runtime Analysis, SAP Job Scheduling, SQL Trace, Performance Tuning, S4HANA Implementations, Web Services, Proxies, Restful programming, IDOCs, Business Workflows, EDI]. ",
+            "Total Experience": "0/10. Employment periods: [April 2024 - Present (July 2025) = 15 months, Dec 2022 - Apr 2023 = 5 months, April 2024 - May 2024 = 2 months, June 2024 - July 2024 = 2 months, Sep 2024 - Nov 2024 = 3 months]. Total months after overlap removal: 15 months = 1.25 years. JD requirement: 6 years.",
+            "Relevant Experience": "0/20. Relevant periods: []. Relevant months after overlap removal: 0 months = 0.00 years. JD requirement: 6 years. Threshold: 4 years.",
+            "Project Exposure": "0/20. E2E projects: []. Support projects: []. Academic/Unrelated: [Analysis of Stock Market Stream Data Using Kafka, AWS & Power BI, Analyze Fitness Data using Excel, Data-Driven IPL Auction Strategy Development, Rainfall Prediction using Python, Machine Learning]. Scoring logic: No relevant E2E projects related to SAP ABAP or the technologies mentioned in the JD."
+        },
+        "shortlisted": false
+    },
+    "d20b3146e01524b3fde7099eca5475a1": {
+        "rating": 0.0,
+        "reason": "Candidate has 3 years of total experience with no relevant experience in SAP GRC or related technologies. The resume does not demonstrate any of the mandatory skills required for the position, such as experience with Master Data Structure or standard workflows. The candidate has worked on support projects but lacks end-to-end project experience relevant to the job description. Overall, the candidate does not meet the requirements for this role.",
+        "individual_scores": {
+            "Mandatory Skills": "0/50. JD Skills: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles and authorization]. Matched: []. Missing: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles and authorization]. ",
+            "Total Experience": "0/10. Employment periods: [Aug 2022 - Present (July 2025): 36 months]. Total months after overlap removal: 36 months = 3.00 years. JD requirement: 3 years.",
+            "Relevant Experience": "0/20. Relevant periods: []. Relevant months after overlap removal: 0 months = 0.00 years. JD requirement: 3 years. Threshold: 2 years.",
+            "Project Exposure": "0/20. E2E projects: []. Support projects: [User Access Review, SSO Implementation, Segregation of Duties, Change Request Management]. Academic/Unrelated: []. Scoring logic: No relevant E2E projects found; only support projects listed which do not align with JD requirements."
+        },
+        "shortlisted": false
+    },
+    "0f7da559bb7ac9b8bf947b579010343b": {
+        "rating": 10.0,
+        "reason": "Candidate has 3 years 7 months of total experience with 0 years of relevant experience in SAP GRC. The candidate's experience primarily focuses on SAP Security and GRC Access Control, but lacks the specific GRC skills and project experience required for this role. No matched skills from the job description were found, indicating a significant gap in the necessary technical expertise. Overall, the candidate does not meet the critical requirements for the position.",
+        "individual_scores": {
+            "Mandatory Skills": "0/50. JD Skills: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles, authorization]. Matched: []. Missing: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles, authorization]. ",
+            "Total Experience": "10/10. Employment periods: [Dec 2021 - Present (July 2025): 43 months]. Total months after overlap removal: 43 months = 3.58 years. JD requirement: 3 years.",
+            "Relevant Experience": "0/20. Relevant periods: []. Relevant months after overlap removal: 0 months = 0.00 years. JD requirement: 3 years. Threshold: 2 years.",
+            "Project Exposure": "0/20. E2E projects: []. Support projects: []. Academic/Unrelated: []. Scoring logic: No relevant projects mentioned that align with the JD requirements."
+        },
+        "shortlisted": false
+    },
+    "26d4281e2df97f83eb6216c1a2c9b193": {
+        "rating": 10.0,
+        "reason": "Candidate has 3 years 10 months of total experience with 0 years 0 months of relevant experience in SAP GRC. Strong background in SAP Security and user administration but lacks direct experience in SAP GRC and related skills required for the role. No end-to-end projects relevant to the job description were identified, only support activities. Overall, the candidate has solid experience in SAP Security but does not meet the critical requirements for the SAP GRC position.",
+        "individual_scores": {
+            "Mandatory Skills": "0/50. JD Skills: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles and authorization]. Matched: []. Missing: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles and authorization]. ",
+            "Total Experience": "10/10. Employment periods: [October 2021 - Present (July 2025): 46 months]. Total months after overlap removal: 46 months = 3.83 years. JD requirement: 3 years.",
+            "Relevant Experience": "0/20. Relevant periods: []. Relevant months after overlap removal: 0 months = 0.00 years. JD requirement: 3 years. Threshold: 2 years.",
+            "Project Exposure": "0/20. E2E projects: []. Support projects: [GRC emergency access management for BP]. Academic/Unrelated: []. Scoring logic: No end-to-end projects relevant to JD; only support project mentioned."
+        },
+        "shortlisted": false
+    },
+    "d72ba234e9cfd1ef3a0478b4161bec49": {
+        "rating": 10.0,
+        "reason": "Candidate has 3 years 7 months of total experience with no relevant experience in SAP GRC. Strong background in SAP Security and GRC Access Control but lacks the specific GRC skills and experience required for this role. No end-to-end projects were mentioned that align with the job description. Overall, the candidate does not meet the mandatory skills and relevant experience requirements for the position.",
+        "individual_scores": {
+            "Mandatory Skills": "0/50. JD Skills: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles, authorization]. Matched: []. Missing: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles, authorization]. ",
+            "Total Experience": "10/10. Employment periods: [Dec 2021 - Present (July 2025) = 43 months]. Total months after overlap removal: 43 months = 3.58 years. JD requirement: 3 years.",
+            "Relevant Experience": "0/20. Relevant periods: [Dec 2021 - Present (July 2025) = 43 months]. Relevant months after overlap removal: 43 months = 3.58 years. JD requirement: 3 years. Threshold: 2 years.",
+            "Project Exposure": "0/20. E2E projects: []. Support projects: [Implementation and support & upgrade for H&M]. Academic/Unrelated: []. Scoring logic: No end-to-end projects relevant to JD requirements."
+        },
+        "shortlisted": false
+    },
+    "19c1e1f4664a64faa0e24dda969901b3": {
+        "rating": 10.0,
+        "reason": "Candidate has 1 year 8 months of total experience with 0 years 0 months of relevant experience in SAP GRC. Lacks critical skills in SAP GRC and related areas as specified in the job description. Overall, the candidate does not meet the required experience and skill set for the role.",
+        "individual_scores": {
+            "Mandatory Skills": "0/50. JD Skills: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles and authorization]. Matched: []. Missing: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles and authorization]. ",
+            "Total Experience": "10/10. Employment periods: [Nov 2021 - Apr 2023 (18 months), May 2023 - Present (2 months)]. Total months after overlap removal: 20 months = 1.67 years. JD requirement: 3 years.",
+            "Relevant Experience": "0/20. Relevant periods: []. Relevant months after overlap removal: 0 months = 0.00 years. JD requirement: 3 years. Threshold: 2 years.",
+            "Project Exposure": "0/20. E2E projects: []. Support projects: [GRC related support at Novartis, day to day SAP Security operations at Reckitt Benckiser]. Academic/Unrelated: []. Scoring logic: No end-to-end projects relevant to JD requirements, only support projects."
+        },
+        "shortlisted": false
+    },
+    "ed4a753f71c7b1076d1fdff5ca30a3a9": {
+        "rating": 10.0,
+        "reason": "Candidate has 3 years 6 months of total experience with 0 years 0 months of relevant experience in SAP GRC. The candidate's experience primarily involves support roles in SAP GRC Access Control but lacks the required end-to-end implementation experience and specific skills outlined in the job description. Missing critical skills such as Master Data Structure, standard workflows, and integration with SAP Process Control. Overall, the candidate does not meet the necessary qualifications for this role.",
+        "individual_scores": {
+            "Mandatory Skills": "0/50. JD Skills: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles and authorization]. Matched: []. Missing: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles and authorization]. ",
+            "Total Experience": "10/10. Employment periods: [Feb 2022 - Present (July 2025) = 42 months]. Total months after overlap removal: 42 months = 3.50 years. JD requirement: 3 years.",
+            "Relevant Experience": "0/20. Relevant periods: []. Relevant months after overlap removal: 0 months = 0.00 years. JD requirement: 3 years. Threshold: 2 years.",
+            "Project Exposure": "0/20. E2E projects: []. Support projects: [SAP GRC AC, ECC 6.0]. Academic/Unrelated: []. Scoring logic: No end-to-end projects relevant to JD; only support projects mentioned."
+        },
+        "shortlisted": false
+    },
+    "ffc451b4a74f6afeb5513e49a044d811": {
+        "rating": 0.0,
+        "reason": "Candidate has 3 years 6 months of total experience with 0 years 0 months of relevant experience in SAP GRC. Lacks any direct experience or skills related to SAP GRC, Master Data Structure, or relevant workflows. No end-to-end projects were identified that align with the job requirements. Overall, the candidate does not meet the necessary qualifications for this role.",
+        "individual_scores": {
+            "Mandatory Skills": "0/50. JD Skills: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles and authorization]. Matched: []. Missing: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles and authorization]. ",
+            "Total Experience": "0/10. Employment periods: [September 2024 - December 2024 (4 months), December 2021 - November 2023 (24 months), September 2020 - November 2021 (14 months)]. Total months after overlap removal: 42 months = 3.50 years. JD requirement: 3 years.",
+            "Relevant Experience": "0/20. Relevant periods: []. Relevant months after overlap removal: 0 months = 0.00 years. JD requirement: 3 years. Threshold: 2 years.",
+            "Project Exposure": "0/20. E2E projects: []. Support projects: [Hindustan Shipyard Limited, Nissan, World Bank]. Academic/Unrelated: []. Scoring logic: No end-to-end projects relevant to JD requirements. Only support projects listed, which do not align with the specific GRC focus of the job description."
+        },
+        "shortlisted": false
+    },
+    "fde7d223552450183aacddeb8f1f0853": {
+        "rating": 10.0,
+        "reason": "Candidate has 10 years 6 months of total experience with 0 years 0 months of relevant experience in SAP GRC. Strong background in SAP Security and Fiori but lacks specific experience in SAP GRC and related technologies as required by the job description. No end-to-end projects relevant to the GRC domain were identified, only support roles. Overall, while the candidate has extensive experience in SAP Security, they do not meet the specific requirements for the SAP GRC Consultant role.",
+        "individual_scores": {
+            "Mandatory Skills": "0/50. JD Skills: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles, authorization]. Matched: []. Missing: [SAP GRC, Master Data Structure, MDUG approach, standard workflows, SAP Process Control, SAP Audit Management, KRI Framework, Risk Simulation scenarios, Loss Management, standard roles, authorization]. ",
+            "Total Experience": "10/10. Employment periods: [Feb 2015 - Dec 2021 (84 months), Dec 2021 - Present (July 2025) (43 months)]. Total months after overlap removal: 126 months = 10.50 years. JD requirement: 3 years.",
+            "Relevant Experience": "0/20. Relevant periods: []. Relevant months after overlap removal: 0 months = 0.00 years. JD requirement: 3 years. Threshold: 2 years.",
+            "Project Exposure": "0/20. E2E projects: []. Support projects: [McKesson Corporation, TNT FedEx, Arlanxeo, Chobani]. Academic/Unrelated: []. Scoring logic: No end-to-end projects relevant to JD requirements, only support projects."
+        },
+        "shortlisted": false
+    }
+}

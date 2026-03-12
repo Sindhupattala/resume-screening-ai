@@ -1,0 +1,118 @@
+@startuml
+' Authentication Schema Diagram
+
+' Tables
+entity "users" {
+  * user_id : BIGINT <<PK>> <<AUTO_INCREMENT>>
+  --
+  username : VARCHAR(50) <<UNIQUE>> <<NOT NULL>>
+  email : VARCHAR(255) <<UNIQUE>> <<NOT NULL>>
+  password_hash : VARCHAR(255) <<NOT NULL>>
+  first_name : VARCHAR(50)
+  last_name : VARCHAR(50)
+  created_at : TIMESTAMP <<DEFAULT CURRENT_TIMESTAMP>>
+  updated_at : TIMESTAMP <<DEFAULT CURRENT_TIMESTAMP ON UPDATE>>
+  is_active : BOOLEAN <<DEFAULT TRUE>>
+  last_login : TIMESTAMP
+}
+
+entity "roles" {
+  * role_id : BIGINT <<PK>> <<AUTO_INCREMENT>>
+  --
+  role_name : VARCHAR(50) <<UNIQUE>> <<NOT NULL>>
+  description : TEXT
+  created_at : TIMESTAMP <<DEFAULT CURRENT_TIMESTAMP>>
+}
+
+entity "permissions" {
+  * permission_id : BIGINT <<PK>> <<AUTO_INCREMENT>>
+  --
+  permission_name : VARCHAR(50) <<UNIQUE>> <<NOT NULL>>
+  description : TEXT
+  created_at : TIMESTAMP <<DEFAULT CURRENT_TIMESTAMP>>
+}
+
+entity "user_roles" {
+  * user_id : BIGINT <<FK>> <<PK>>
+  * role_id : BIGINT <<FK>> <<PK>>
+  --
+  assigned_at : TIMESTAMP <<DEFAULT CURRENT_TIMESTAMP>>
+}
+
+entity "role_permissions" {
+  * role_id : BIGINT <<FK>> <<PK>>
+  * permission_id : BIGINT <<FK>> <<PK>>
+  --
+  assigned_at : TIMESTAMP <<DEFAULT CURRENT_TIMESTAMP>>
+}
+
+entity "auth_tokens" {
+  * token_id : BIGINT <<PK>> <<AUTO_INCREMENT>>
+  --
+  user_id : BIGINT <<FK>> <<NOT NULL>>
+  token : VARCHAR(255) <<UNIQUE>> <<NOT NULL>>
+  token_type : ENUM('ACCESS', 'REFRESH') <<NOT NULL>>
+  issued_at : TIMESTAMP <<DEFAULT CURRENT_TIMESTAMP>>
+  expires_at : TIMESTAMP <<NOT NULL>>
+  revoked : BOOLEAN <<DEFAULT FALSE>>
+  created_at : TIMESTAMP <<DEFAULT CURRENT_TIMESTAMP>>
+}
+
+entity "password_reset_tokens" {
+  * reset_token_id : BIGINT <<PK>> <<AUTO_INCREMENT>>
+  --
+  user_id : BIGINT <<FK>> <<NOT NULL>>
+  token : VARCHAR(255) <<UNIQUE>> <<NOT NULL>>
+  created_at : TIMESTAMP <<DEFAULT CURRENT_TIMESTAMP>>
+  expires_at : TIMESTAMP <<NOT NULL>>
+  used : BOOLEAN <<DEFAULT FALSE>>
+}
+
+entity "sessions" {
+  * session_id : BIGINT <<PK>> <<AUTO_INCREMENT>>
+  --
+  user_id : BIGINT <<FK>> <<NOT NULL>>
+  token_id : BIGINT <<FK>> <<NOT NULL>>
+  ip_address : VARCHAR(45)
+  user_agent : TEXT
+  created_at : TIMESTAMP <<DEFAULT CURRENT_TIMESTAMP>>
+  last_accessed : TIMESTAMP <<DEFAULT CURRENT_TIMESTAMP>>
+  expires_at : TIMESTAMP <<NOT NULL>>
+}
+
+' Relationships
+users ||--o{ auth_tokens : user_id
+users ||--o{ password_reset_tokens : user_id
+users ||--o{ sessions : user_id
+auth_tokens ||--o{ sessions : token_id
+users }o--o{ roles : user_roles
+roles }o--o{ permissions : role_permissions
+
+' Foreign Key Constraints
+user_roles ||--o{ users : user_id
+user_roles ||--o{ roles : role_id
+role_permissions ||--o{ roles : role_id
+role_permissions ||--o{ permissions : permission_id
+
+' Notes
+note right of users
+  Indexes:
+  - idx_users_email ON email
+end note
+
+note right of auth_tokens
+  Indexes:
+  - idx_auth_tokens_token ON token
+end note
+
+note right of password_reset_tokens
+  Indexes:
+  - idx_password_reset_tokens_token ON token
+end note
+
+note right of sessions
+  Indexes:
+  - idx_sessions_token_id ON token_id
+end note
+
+@enduml
